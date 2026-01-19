@@ -84,8 +84,8 @@
 
 
 .hero-tech-wave {
-    font-size: 64px;
-    font-weight: 900;
+    font-size: 44px;
+    font-weight: 800;
     padding-top: 30px;
 }
 
@@ -111,6 +111,7 @@
 /* podcast-section */
 .podcast-section {
     display: flex;
+    justify-content: center;
     margin: 0 auto;
     text-align: center;
 }
@@ -118,16 +119,109 @@
 .podcast-container {
     max-width: 1200px;
 }
-.podcast-header{
+
+.podcast-header {
     font-size: 36px;
     font-weight: 700;
     margin-bottom: 16px;
     text-align: center;
 }
-.podcast-info{
+
+.podcast-info {
     font-size: smaller;
     color: #CCCCCC;
     margin-bottom: 40px;
     line-height: 1.6;
     letter-spacing: 1px;
+}
+
+.hr-row {
+    border-top: 1px solid #dddddd;
+    margin: 50px 0;
+}
+
+.podcast-card {
+    margin-bottom: 40px;
+}
+
+.podcast-card h1 {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+/* Third section styles */
+.choose-section {
+    background-color: #230E3D;
+    color: #FFFFFF;
+}
+
+.choose-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+
+.choose-title{
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+.choose-title .card{
+    padding: 40px 0;
+}
+.card .specific-card{
+    padding: 40px;
+}
+.specific-card img{
+    margin-bottom: 15px;
+}
+.specific-card h2 {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.specific-card p {
+    font-size: smaller;
+    color: #cccccc;
+    line-height: 1.6;
+    letter-spacing: 1px;
+}
+.featured-section{
+    background-color: #230E3D;
+}
+.featured-section h1{
+    color: #FFFFFF;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.featured-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+.featured-container .video-card{
+    background-color: #351165;
+    padding: 20px;
+}
+.video-card h2{
+    color: #FFFFFF;
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.video-card p{
+    color: #CCCCCC;
+    font-size: smaller;
+    margin-bottom: 15px;
+    line-height: 1.6;
+    letter-spacing: 1px;
+}
+.video-card span{
+    color: #00FF88;
+    font-size: smaller;
+    font-weight: 600;
+    text-decoration: none;
 }
