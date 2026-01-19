@@ -7,3 +7,127 @@
         font-family: "Inter", sans-serif;
     }
 }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-container {
+    margin: 0 auto;
+    padding: 24px 0;
+}
+
+.wave-linear {
+    background: linear-gradient(to right top,
+            rgb(238, 255, 0),
+            rgb(255, 136, 0),
+            rgb(255, 0, 21),
+            rgb(132, 0, 255));
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: 900;
+}
+
+.tech-wave {
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.btn-primary {
+    background: linear-gradient(to right top,
+            rgb(238, 255, 0),
+            rgb(255, 136, 0),
+            rgb(255, 0, 21),
+            rgb(132, 0, 255));
+    color: rgb(255, 255, 255);
+    padding: 12px 30px;
+    border-radius: 100px;
+}
+
+.hero-section {
+    background-image: url("./assets/hero-bg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.hero-container {
+    position: relative;
+    top: 130px;
+}
+
+.microphone-image {
+    position: relative;
+    width: 410px;
+    height: 410px;
+    margin: 0 auto;
+}
+
+.circle-img {
+    width: 410px;
+    height: 410px;
+    display: block;
+    object-fit: cover;
+}
+
+.mic-img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    height: 200px;
+}
+
+
+.hero-tech-wave {
+    font-size: 64px;
+    font-weight: 900;
+    padding-top: 30px;
+}
+
+.hero-info {
+    font-size: smaller;
+    letter-spacing: 1px;
+    color: rgb(199, 199, 199);
+    padding-bottom: 10px;
+}
+
+.spotify-icon {
+    margin-right: 8px;
+}
+
+.btn-secondary {
+    border: 2px solid #00FF88;
+    color: #00FF88;
+    padding: 12px 30px;
+    border-radius: 100px;
+    margin-left: 20px;
+}
+
+/* podcast-section */
+.podcast-section {
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.podcast-container {
+    max-width: 1200px;
+}
+.podcast-header{
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    text-align: center;
+}
+.podcast-info{
+    font-size: smaller;
+    color: #CCCCCC;
+    margin-bottom: 40px;
+    line-height: 1.6;
+    letter-spacing: 1px;
+}
